@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 #app-container {
@@ -28,6 +31,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-weight: 550;
 }
 
 .block {
@@ -40,8 +44,8 @@
   align-items: center;
   color: #ffffff;
   font-size: 1.4em;
-  margin-right: 4px;
-  margin-left: 4px;
+  margin: 0px 4px;
+  letter-spacing: 1.5px;
 }
 
 #control-container {
